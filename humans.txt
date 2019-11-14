@@ -1,0 +1,16 @@
+/* TEAM */
+    UI/Web designer, Jesper Zachrisson
+    Developer, Jesper Zachrisson
+    Author: Jesper Zachrisson
+    Location: Stockholm, Sweden
+
+/* THANKS */
+   Staff at Linnaues University, Kalmar, Sweden
+   General support and friendship: Fredrik Lundin, Stockholm, Sweden
+
+/* SITE */
+    Last update: 2019/11/14
+    Language: English
+    Doctype:HTML5
+    Components. Jekyll, GitHub
+    Software: Visual Studio Code

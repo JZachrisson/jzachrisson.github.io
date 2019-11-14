@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <article>
@@ -7,3 +8,6 @@ layout: default
     Published on {{ page.date | date_to_string }}
     {{ content }}
 </article> 
+{% if site.disqus.shortname %}
+{% include disqus_comments.html %}
+{% endif %}

@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "My Example Blog Post"
+title:  "My first Blog Post"
 date:   2019-11-12 05:10:21 -0500
-permalink: /example-post/
-categories: example jekyll northstack
+permalink: /My-first-post/
+categories: example jekyll
 ---
 
-This is my new blog post on my new Jekyll blog!
+We are up and running! Or are we? I really hope so. This was just to test that this actually works. I think I'll keep
+this post as a little memory.

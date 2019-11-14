@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Humans.txt"
+date:   2019-11-14 03:57:41 -0500
+permalink: /Humans-txt/
+categories: example jekyll
+---
+
+
+What is humans.txt and how have you configure it for your site?
+
+Humans.txt is a text file that is used to present the people and authors behind a website. 
+It gives information about the persons who have contributed to building the website.
+Instead of having the authors sign the website, you add this txt file to prove
+authorship in an external, easy and accessible way. Read more here.
+
+For my site I have used bits of what seems to be the standard template, where
+I give information about the site, authorship and thanks/acknowledgements.
+
+
