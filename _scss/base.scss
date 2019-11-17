@@ -1,4 +1,7 @@
-$color-primary: #142d4c; 
+$color-primary: #142d4c;
+$color-secondary: #ffffff;
+$color-highlight: red;
+$color-background: #ececec; 
 
 *,
 *::after,
@@ -10,17 +13,23 @@ $color-primary: #142d4c;
 
 body { 
   font-family:'Lato', sans-serif;
-  background-color: #ececec;
+  background-color: $color-background;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 0 20px;
 }
 
 h1, h2, h3, h4, h5 {
-  color: #142d4c;
+  color: $color-primary;
 
   a {
-    color: #142d4c;
+    color: $color-primary;
 
     &:hover {
-      color: red;
+      color: $color-highlight;
     }
   }
 }
@@ -41,10 +50,10 @@ nav {
   align-self: center;
 
   a {
-    color: white;
+    color: $color-secondary;
 
     &:hover {
-      color: red;
+      color: $color-highlight;
     }
   }
 }
@@ -60,9 +69,8 @@ nav {
 
 footer {
   padding: 15px;
-  color: #ffffff;
+  color: $color-secondary;
   background-color: $color-primary;
-  box-shadow: 0 50vh 0 50vh #385170;
 }
 
 main {
@@ -71,8 +79,19 @@ main {
 }
 
 article {
-  background-color: #ffffff;
+  background-color: $color-secondary;
   padding: 15px;
   margin: 30px 0;
+}
+
+.intro {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+p {
+  line-height: 1.6;
 }
 

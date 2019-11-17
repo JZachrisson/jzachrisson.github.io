@@ -1,12 +1,18 @@
 <!doctype html>
 <html lang="en">
     <head>
+        {% if page.summary %}
+        <meta name="description" content="{{ page.summary | escape }}">
+        {% endif %}
+        {%if page.tags %}
+        <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+        {%endif %}
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     </head>
-    <div class="container">
+    <div class="wrapper">
     <body>
         {% include header.html %}
         <main>
