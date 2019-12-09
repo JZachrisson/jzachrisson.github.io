@@ -4,8 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<img src="/images/solochbad.jpg" height="287"
-width="300" />
+
 
 Oh, hey there! Glad you could make it. My name is Jesper and I'm an aspiring web developer.
 
